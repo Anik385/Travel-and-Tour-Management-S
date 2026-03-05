@@ -12,8 +12,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tours")
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:8080"}) // Add both origins
+@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.0.158", "http://10.101.189.122"})
+//@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:8080", "http://192.168.20.55"}) // Add both origins
 public class TourController {
 
     @Autowired
